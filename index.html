@@ -1,13 +1,3 @@
-<script type="text/template" id="list_template">
-  <label><%= list_label %></label>
-  <input type="text" id="list_input" />
-  <input type="button" id="list_button" value="Submit" />
-</script>
-
-<script type="text/template" id="todo_template">
-  <li><%= todoItem %><input type="checkbox"></li>
-</script>
-
 <div id="list_container"></div>
 <div>
   <ul id="todo_container"></ul>
@@ -18,5 +8,3 @@
 <script src="underscore.js"></script> 
 <script src="http://backbonejs.org/backbone.js"></script>
 <script src="list.js"></script>
-
-<!-- (data) -> $('#people').append(JST['person'](JSON.parse(data))) -->
